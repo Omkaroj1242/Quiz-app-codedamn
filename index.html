@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <link rel="stylesheet" href="./assets/css/style.css"> -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <title>Codedamn - Quiz Project</title>
+    <link rel="stylesheet" href="assets/style.css">
+</head>
+
+<body>
+    <header id="header">
+        <a id=leaderboard>View Highscores <i class="fas fa-hand-point-left fa-lg"></i></a>
+        <a>Time: <span id="time">50</span></a>
+    </header>
+    <div id="main">
+        <div id="quiz-section">
+            <div id="info">
+                <h2>Coding Quiz Challenge</h2>
+                <p>Try to answer to following code-related questions within the time limit.</p>
+                <p>Keep in mind that incorrect answers will penalize your score/time by ten seconds!</p>
+                <button>Start Quiz</button>
+            </div>
+            <div id="questions">
+                <h1>Commonly used data types DO NOT include:</h1>
+                <p class="option1">1. strings</p>
+                <p class="option2">1. strings</p>
+                <p class="option3">1. strings</p>
+                <p class="option4">1. strings</p>
+                <h4></h4>
+                <button id="next">Next</button>
+            </div>
+            <div id="all-done">
+               <h2>All Done!</h2>
+               <p>Your final score is <span></span>.</p>
+               <div>Enter initials: <input id="initials" type="text"/>
+                    <button id="submit">Submit</button>
+               </div>
+            </div>
+        </div>
+    </div>
+    <script src="assets/script.js"></script>
+</body>
+
+</html>
